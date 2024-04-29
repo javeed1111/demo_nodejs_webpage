@@ -23,6 +23,7 @@ jobs:
             echo $DOCKER_PASSWORD | docker login -u javeed1111 --password-stdin
             docker push adijaiswal/nodejswebapp1:latest
 
+
 workflows:
   build_test:
     jobs:
